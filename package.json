@@ -1,0 +1,17 @@
+{
+  "name": "property-image-thumbnails",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/thumbnail_service.ts",
+    "test": "node --experimental-strip-types src/thumbnail_decision.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}

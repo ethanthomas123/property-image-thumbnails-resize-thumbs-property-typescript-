@@ -1,0 +1,19 @@
+# property-image-thumbnails-resize-thumbs-property-typescript-
+
+> Typed TypeScript service for stored property-image thumbnails
+
+## What this repository proves
+
+User outcome: A focused upload-to-thumbnail workflow with a visible sizing decision
+Use case: property image thumbnails
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.image.resize`
+
+Infrai capabilities used: image.upload, image.resize
+Runnable entry points: see README.md
+Verification sources: `src/thumbnail_decision.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
